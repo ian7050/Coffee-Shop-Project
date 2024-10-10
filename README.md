@@ -105,10 +105,10 @@ The best solution to support the owner of the coffee company is to create a dash
    
 ## Data Cleaning, Transfomration and Quality Check
 
-  - Excel will be used to clean the data
+  - Excel will be used to clean, transform and present the data.
 
   - This are the step to follow in order to clean the data properly for our project:
-    1.
+    1. 
 
 ### Data Cleaning
 
