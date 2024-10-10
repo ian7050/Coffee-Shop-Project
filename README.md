@@ -108,28 +108,32 @@ The best solution to support the owner of the coffee company is to create a dash
   - Excel will be used to clean, transform and present the data.
 
   - This are the step to follow in order to clean the data properly for our project:
-    1. 
+    1. Populate the columns that are empty of data using XLOOKUP and INDEX/MATCH.
+    2. Format the date column to yyyy-mmm-dd.
+    3. Format column returning 0 as value using IF function.
+    4. Do a duplicate check.
 
 ### Data Cleaning
 
-### Select columns
-```sql
+### XLOOKUP (Customer name, Email, Country)
+```Excel
 /*
 
---Selecting colums we need for the project
+--Populating columns that we need for the project
 
-		select 
-			NOMBRE,
-			total_subscribers,
-			total_views,
-			total_videos
-		from 
-			top_uk_youtubers_2024;
+-- Customer Name
+=XLOOKUP(C2,customers!$A$1:$A$1001,customers!$B$1:$B$1001,,0)
+
+--Email
+=IF(XLOOKUP(orders!C2,customers!$A$1:$A$1001,customers!$C$1:$C$1001,,0) = 0,"",XLOOKUP(orders!C2,customers!$A$1:$A$1001,customers!$C$1:$C$1001,,0))
+
+--Country
+=XLOOKUP(C2,customers!$A$1:$A$1001,customers!$G$1:$G$1001,,0)
 ```
 
-### Extracting Youtube Channel Names
+### INDEX MATCH (Coffee Type, Roast Type, Size, Unit Price)
 
-```sql
+```Excel
 /*
 
 --Extracting Youtube Channels
