@@ -193,21 +193,6 @@ The best solution to support the owner of the coffee company is to create a dash
 ![PNG of Excel Dashboard](Assets/Coffee_Shop_Dashboard_Capture.PNG)
 
 
-# Analysis
-
-For this analysis, our client asked us to anwsers the following questions :
-
-1.Who are the top 5 customers in the last 2 years?
-2.Which coffee bean has the most sales in the last 2 years?
-3.Which country has purchase the most in the last 2 years?
-4.Which size is purchased the most by the loyalty card clients in the last 2 yeard
-
-## Insight Findings
-
-1. Who are the top 5 customers in the last 2 years?
-
-
-# Recommendation
 
  
  
