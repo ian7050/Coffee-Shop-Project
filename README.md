@@ -3,25 +3,12 @@
 # Table of contents
 
 1. [Objective](#objective)
-   - [What is the main objective of this project?](#what-is-the-main-objective-of-this-project)
-   - [What is the decision making support?](#what-is-the-decision-making-support)
-   - [User Assignment](#user-assignment)
 2. [Data Source](#data-source)
 3. [Steps of the Project](#steps-of-the-project)
 4. [Design](#design)
-   - [Dashboard Requirements](#dashboard-requirements)
-   - [Dashboard Mockup](#dashboard-mockup)
-   - [Tools](#tools)
 5. [Development](#development)
-   - [Pseudocode: Steps of the Development Section](#pseudocode-steps-of-the-development-section)
-   - [Data Exploration](#data-exploration)
-   - [Data Cleaning, Transformation, and Quality Check](#data-cleaning-transformation-and-quality-check)
 6. [Visualization](#visualization)
-   - [Results](#results)
-   - [DAX Measures](#dax-measures)
 7. [Analysis](#analysis)
-   - [Insights Findings](#insights-findings)
-   - [Validation](#validation)
 8. [Recommendation](#recommendation)
 
 # Objective
