@@ -15,7 +15,7 @@
 
 - What is the main objective of this project ?
 
-A Coffee company want to have insights on their sales of Coffee Beans through out the last couple years.
+A Coffee company want to have insights on their sales of coffee beans through out the last couple years.
 
 What is the decision making support ?
 
@@ -37,6 +37,8 @@ The best solution to support the owner of the coffee company is to create a dash
   - Developement (Explore data, Clean data and Validate data)
   - Testing
   - Vizualisation
+  - Analysis
+  - Recommendation
 
 # Design 
 
@@ -73,15 +75,18 @@ The best solution to support the owner of the coffee company is to create a dash
   - This are the main steps that will be followed in order to complete the project:
 
   1. Load data to Excel.
-  2. Explore data in Excel.
-  3. Transform data in Excel
-  4. Clean data with Excel.
-  5. Test data in Excel
-  6. Build Dashboard in Excel
-  7. Visualize data in Excel
+  2. Explore data
+  3. Transform data
+  4. Clean data
+  5. Test data
+  6. Build a Dashboard
+  7. Visualize data
+  8. Analysis and Recommendation
+
+* All the steps are done in Excel
 
 ## Data Exploration
-  - Excel is used un order to clean data, transform and run quality checks.
+  - Excel will be used toclean data, transform and run quality checks.
 
   - This are the step to follow in order to clean the data properly for our project:
 
@@ -93,14 +98,21 @@ The best solution to support the owner of the coffee company is to create a dash
 ## Data Cleaning, Transfomration and Quality Check
 
   - Excel will be used to clean, transform and present the data.
+  - By exploring the raw data we can observe the followings:
+    1. Missing values in columns Customer Name, Email, Country, Coffee type, Roast Type, Size and Unit Price in the main table Orders.
+    2. The date column need to be formated.
+    3. Some values in the Email and Phone Number columns in the Customer table are null.
+    4. Coffee type and Roast type are presented in their abbreviation form (Ex: L for Light or Ara for Arabica).
+    5. Columns that represent price or monetary value aren't formatted in currency.
+    6. The Size column in the Product table isn't formatted is mass unit
 
-  - This are the step to follow in order to clean the data properly for our project:
+### Data Cleaning
+
+- This are the step to follow in order to clean the data properly for our project:
     1. Populate the columns that are empty of data using XLOOKUP and INDEX/MATCH.
     2. Format the date column to yyyy-mmm-dd.
     3. Format column returning 0 as value using IF function.
     4. Do a duplicate check.
-
-### Data Cleaning
 
 ### XLOOKUP (Customer name, Email, Country)
 ```Excel
