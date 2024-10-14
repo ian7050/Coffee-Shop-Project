@@ -8,8 +8,6 @@
 4. [Design](#design)
 5. [Development](#development)
 6. [Visualization](#visualization)
-7. [Analysis](#analysis)
-8. [Recommendation](#recommendation)
 
 # Objective
 
