@@ -191,7 +191,7 @@ The best solution to support the owner of the coffee company is to create a dash
 
  - This shows how the final dashboard looks like.
 
-![PNG of Excel Dashboard](assets/images/Top UK Youtubers 2024.PNG)
+![PNG of Excel Dashboard](Assets/Coffee_Shop_Dashboard_Capture.PNG)
 
 
 # Analysis
