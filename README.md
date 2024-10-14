@@ -136,13 +136,14 @@ The best solution to support the owner of the coffee company is to create a dash
 ```Excel
 /*
 
---Extracting Youtube Channels
+--Populating columns that we need for the project using INDEX/MATCH
 
-		select
-			CHARINDEX('@', NOMBRE),
-			NOMBRE
-		from
-			top_uk_youtubers_2024;
+-- Coffee Type, Roast Type, Size, Unit Price
+
+=INDEX(products!$A$1:$G$49,MATCH(orders!$D2,products!$A$1:$A$49,0),MATCH(orders!I$1,products!$A$1:$G$1,0))
+
+
+
 ```
 
 ### Create a SQL View 
