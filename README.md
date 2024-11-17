@@ -35,8 +35,6 @@ The best solution to support the owner of the coffee company is to create a dash
   - Developement (Explore data, Clean data and Validate data)
   - Testing
   - Vizualisation
-  - Analysis
-  - Recommendation
 
 # Design 
 
