@@ -13,11 +13,11 @@
 
 - What is the main objective of this project ?
 
-A Coffee company want to have insights on their sales of coffee beans through out the last couple years.
+A coffee company wants to gain insights into their coffee bean sales over the past couple of years.
 
 What is the decision making support ?
 
-The best solution to support the owner of the coffee company is to create a dashboard that provides strong insight about :
+The best solution to support the owner of the coffee company is to create a dashboard that provides valuable insights into :
 
   - Total Sales
   - Top purchasing coutries
