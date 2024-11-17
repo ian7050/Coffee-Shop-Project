@@ -40,7 +40,7 @@ The best solution to support the owner of the coffee company is to create a dash
 
 ## Dashboard requirements
   - What are the dashboard requirements based on the information provided:
-  - 
+   
 	  - What are the total sales overtime?
 	  - Which countries have the most purchases of Coffee beans?
 	  - Who are the top 5 customers?
